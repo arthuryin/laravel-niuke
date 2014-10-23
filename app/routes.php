@@ -11,7 +11,14 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+// 首页
+Route::get('/','HomeController@index');
+
+
+
+
+
+
+
+// 后台
+Route::get('/admin','AdminController@index');

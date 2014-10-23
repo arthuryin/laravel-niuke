@@ -1,0 +1,14 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	direction: none;
+}
+
+body{
+	background: url(../images/home/background.major.jpg) no-repeat top center;
+}
+header{
+	width: 100%;
+	height: 30px;
+}
