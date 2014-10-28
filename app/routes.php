@@ -14,6 +14,8 @@
 // 首页
 Route::get('/','HomeController@index');
 
+// 注册
+Route::get('register','UsersController@register');
 
 
 
@@ -22,6 +24,7 @@ Route::get('/','HomeController@index');
 
 // 后台
 Route::get('/admin','AdminController@index');
+
 
 
 
