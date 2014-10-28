@@ -22,3 +22,14 @@ Route::get('/','HomeController@index');
 
 // 后台
 Route::get('/admin','AdminController@index');
+
+
+
+
+
+
+// 测试
+Route::get('/test',function(){
+
+	return View::make('layouts.admin');
+});

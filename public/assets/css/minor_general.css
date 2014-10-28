@@ -1,0 +1,23 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	direction: none;
+	color: #fff;
+}
+
+body{
+	background: url(../images/home/background.major.jpg) no-repeat top center;
+}
+header{
+	width: 100%;
+	height: 30px;
+}
+
+.admin-login{
+	margin: 300px 10%;
+}
+.admin-login div input{
+
+	width: 100%;
+}
