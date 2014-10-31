@@ -88,6 +88,7 @@
 * 设置本地host
 	
 	```
+	windows／system32/driver／etc(仅windows可用)
 	127.0.0.1  niuke.dev api.niuke.dev static.niuke.dev image.niuke.dev
 	```
 * 访问，在8000端口上
